@@ -29,6 +29,12 @@ public class Main {
         System.out.println("Total Marks: " + total);
         System.out.println("Average: " + average);
 
+        if (average >= 50) {
+            System.out.println("Result: PASS");
+        } else {
+            System.out.println("Result: FAIL");
+        }
+
         input.close();
     }
 }
