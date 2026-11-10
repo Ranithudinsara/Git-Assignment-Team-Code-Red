@@ -1,0 +1,28 @@
+public class Main {
+    private static final String APP_NAME = "Team Collaboration Project";
+    private static final String APP_VERSION = "v1.0";
+
+    public static void main(String[] args) {
+        displayHeader();
+        Calculator calc = new Calculator();
+        System.out.println("Initial Addition: 10 + 5 = " + calc.add(10, 5));
+    }
+
+    public static void displayHeader() {
+        System.out.println("=========================================");
+        System.out.println("  " + APP_NAME + " (" + APP_VERSION + ")");
+        System.out.println("=========================================");
+    }
+}
+
+class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+
+
+
+//NEXT CODE FROM HERE 
+
+
+    }
+}
