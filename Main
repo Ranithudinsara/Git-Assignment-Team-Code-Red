@@ -7,7 +7,19 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-//Next Code here
+        System.out.println("===== STUDENT GRADE CALCULATOR =====");
+
+        System.out.print("Enter student name: ");
+        String name = input.nextLine();
+
+        System.out.print("Enter Java marks: ");
+        int java = input.nextInt();
+
+        System.out.print("Enter Database marks: ");
+        int database = input.nextInt();
+
+        System.out.print("Enter Programming marks: ");
+        int programming = input.nextInt();
 
         input.close();
     }
