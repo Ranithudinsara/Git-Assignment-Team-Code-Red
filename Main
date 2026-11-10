@@ -21,6 +21,14 @@ public class Main {
         System.out.print("Enter Programming marks: ");
         int programming = input.nextInt();
 
+        int total = java + database + programming;
+        double average = total / 3.0;
+
+        System.out.println("\n===== RESULTS =====");
+        System.out.println("Student: " + name);
+        System.out.println("Total Marks: " + total);
+        System.out.println("Average: " + average);
+
         input.close();
     }
 }
