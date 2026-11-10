@@ -1,28 +1,14 @@
+
+import java.util.Scanner;
+
 public class Main {
-    private static final String APP_NAME = "Team Collaboration Project";
-    private static final String APP_VERSION = "v1.0";
 
     public static void main(String[] args) {
-        displayHeader();
-        Calculator calc = new Calculator();
-        System.out.println("Initial Addition: 10 + 5 = " + calc.add(10, 5));
-    }
 
-    public static void displayHeader() {
-        System.out.println("=========================================");
-        System.out.println("  " + APP_NAME + " (" + APP_VERSION + ")");
-        System.out.println("=========================================");
-    }
-}
+        Scanner input = new Scanner(System.in);
 
-class Calculator {
-    public int add(int a, int b) {
-        return a + b;
+//Next Code here
 
-
-
-//NEXT CODE FROM HERE 
-
-
+        input.close();
     }
 }
